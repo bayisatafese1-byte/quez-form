@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter Two Exam - Sensation and Perception</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="tag">GENERAL PSYCHOLOGY</p>
+      <h1>Chapter Two Exam</h1>
+      <h2>Sensation and Perception</h2>
+      <p>Choose the best answer for each question.</p>
+      <p class="instructions">40 questions · One mark each</p>
+    </header>
+
+    <section class="progress-section">
+      <div class="progress-info">
+        <span>Exam progress</span>
+        <span id="progressText">0 / 40 answered</span>
+      </div>
+      <div class="progress-track">
+        <div id="progressBar"></div>
+      </div>
+    </section>
+
+    <form id="examForm">
+      <div id="questions"></div>
+      <div class="actions">
+        <button type="submit" class="submit-btn">Submit Exam</button>
+        <button type="button" id="resetBtn" class="reset-btn">Reset Exam</button>
+      </div>
+    </form>
+
+    <section id="result" class="result hidden" aria-live="polite">
+      <h2>Exam Result</h2>
+      <p id="score"></p>
+      <p id="message"></p>
+      <button type="button" id="reviewBtn">Review Answers</button>
+      <button type="button" id="tryAgainBtn">Try Again</button>
+    </section>
+
+    <footer>
+      <p>General Psychology | Chapter Two</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
